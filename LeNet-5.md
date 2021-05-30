@@ -10,7 +10,7 @@ ____
 
 ____
 
-![LeNet-5](C:\Users\ASUS\Desktop\note\lenet-5\image\lenet-5.jpg)
+![LeNet-5](image\lenet-5.jpg)
 
 ​	从整体上来看，整个网络经过两次卷积与池化层后再经过卷积层，展开成全连接层，最后输出大小为10的向量，一共**七层**。
 
@@ -48,7 +48,7 @@ ____
 
 ​	值得注意的是，这里的卷积方式和现在普遍的卷积方式不同，一般的卷积方式是16个卷积核对S2层的输出的每个特征图进行卷积，但论文里的方式**没有把S2层的每个特征图连接到C3的每个特征图**，，这里说的比较抽象，还是放图吧。
 
-![映射方式](C:\Users\ASUS\Desktop\note\lenet-5\image\table1.png)
+![映射方式](image\table1.png)
 
 ​	论文里对此做法给出的原因有两点，分别是：
 
@@ -106,7 +106,7 @@ ____
 
 **标准图像**如下：
 
-![编码矩阵](C:\Users\ASUS\Desktop\note\lenet-5\image\ASCII.png)
+![编码矩阵](image\ASCII.png)
 
 ## 损失函数
 
@@ -192,7 +192,7 @@ def predict(path):
 
 ### **模型参数概览**
 
-![模型参数](C:\Users\ASUS\Desktop\note\lenet-5\image\summary.png)
+![模型参数](image\summary.png)
 
 
 
